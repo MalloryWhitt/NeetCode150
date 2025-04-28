@@ -12,6 +12,8 @@ Approach:
 - If no such pair is found after iterating through the list, return an empty list.
 """
 
+from typing import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         prevMap = {}  # val : index
